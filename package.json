@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gilkatz2000/Notes_FullStack_app.git"
+    "url": "git+https://github.com/Gilkatz2000/Twitter-Like-Platform.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/Gilkatz2000/Notes_FullStack_app/issues"
+    "url": "https://github.com/Gilkatz2000/Twitter-Like-Platform/issues"
   },
-  "homepage": "https://github.com/Gilkatz2000/Notes_FullStack_app#readme",
+  "homepage": "https://github.com/Gilkatz2000/Twitter-Like-Platform#readme",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.1",

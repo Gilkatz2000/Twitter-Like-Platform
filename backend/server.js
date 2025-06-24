@@ -1,6 +1,7 @@
 import express from "express";
 import authRoutes from "./routes/auth.routes.js";
 import userRoutes from "./routes/user.routes.js";
+import postRoutes from "./routes/post.routes.js";
 import connectMongoDB from "./db/connectMongoDB.js";
 import cookieParser from "cookie-parser";
 
@@ -24,6 +25,7 @@ app.use(express.urlencoded({ extended: true })); // ✅ first parse the body
 app.use(cookieParser());
 app.use("/api/auth", authRoutes); // ✅ then load the routes
 app.use("/api/users", userRoutes);
+app.use("/api/posts", postRoutes);
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
